@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="GoToRoot">Ir a la raíz</button>
+    <button class="miBoton" @click="GoToRoot">Ir a la raíz</button>
   </div>
 </template>
 
@@ -13,3 +13,22 @@ const GoToRoot = () => {
   router.push('/')
 }
 </script>
+
+<style scoped>
+.miBoton {
+  padding: 10px 15px;
+  background-color: #280274;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.miBoton:hover {
+  background-color: #3652ad;
+}
+
+.miBoton:active {
+  background-color: #280274;
+}
+</style>
