@@ -14,7 +14,7 @@ const GoToRoot = () => {
 }
 </script>
 
-<style scoped>
+<style>
 .miBoton {
   padding: 10px 15px;
   background-color: #280274;
