@@ -11,7 +11,6 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="Andy Isaac Castillo Córdova" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
         <RouterLink to="First">FirstView</RouterLink>
         <RouterLink to="Second">SecondView</RouterLink>
         <RouterLink to="Third">ThirdView</RouterLink>
