@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div></div>
+  <div>Soy el firstview</div>
 </template>
 
 <style scoped></style>
