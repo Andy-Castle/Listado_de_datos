@@ -4,7 +4,7 @@ import ButtonRoot from '@/components/ButtonRoot.vue'
 
 <template>
   <ButtonRoot />
-  <div>Soy el secondview</div>
+  <h1>SecondView</h1>
 </template>
 
 <style scoped></style>

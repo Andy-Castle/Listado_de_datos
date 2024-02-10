@@ -4,7 +4,7 @@ import ButtonRoot from '@/components/ButtonRoot.vue'
 
 <template>
   <ButtonRoot />
-  <div>Soy el firstview</div>
+  <h1>FirstView</h1>
 </template>
 
 <style scoped></style>

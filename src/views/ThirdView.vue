@@ -4,7 +4,7 @@ import ButtonRoot from '@/components/ButtonRoot.vue'
 
 <template>
   <ButtonRoot />
-  <div>Soy el thirdview</div>
+  <h1>ThirdView</h1>
 </template>
 
 <style scoped></style>

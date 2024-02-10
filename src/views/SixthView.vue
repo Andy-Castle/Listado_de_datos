@@ -4,7 +4,7 @@ import ButtonRoot from '@/components/ButtonRoot.vue'
 
 <template>
   <ButtonRoot />
-  <div>Soy el sixthview</div>
+  <h1>SixthView</h1>
 </template>
 
 <style scoped></style>
