@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="Andy Isaac Castillo Córdova" />
 
       <div class="nav">
-        <p>Todos las paginas son visibles</p>
+        <p>Todos las paginas son visibles (Para probar funcionamiento)</p>
         <nav>
           <RouterLink to="First">FirstView</RouterLink>
           <RouterLink to="Second">SecondView</RouterLink>

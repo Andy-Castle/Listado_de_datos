@@ -6,7 +6,9 @@ import FatherComponent from '@/components/FatherComponent.vue'
   <main>
     <h1>Este es la raíz del sitio</h1>
     <h3>👇Esto es el FatherComponent</h3>
-    <FatherComponent />
+    <div class="father">
+      <FatherComponent />
+    </div>
   </main>
 </template>
 
@@ -17,6 +19,10 @@ main {
   align-items: center;
   justify-content: center;
   margin: 20px auto;
+}
+
+.father {
+  margin-top: 15px;
 }
 
 h1,
