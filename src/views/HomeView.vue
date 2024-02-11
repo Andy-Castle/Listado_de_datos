@@ -12,6 +12,15 @@ import FatherComponent from '@/components/FatherComponent.vue'
 
 <style scoped>
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 20px auto;
+}
+
+h1,
+h3 {
+  margin-bottom: 10px; /* Pequeña separación entre h1 y h3 */
 }
 </style>
