@@ -37,8 +37,8 @@ img {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  display: block; /* Añade esto para que el botón ocupe todo el ancho */
-  margin-bottom: 10px; /* Espacio debajo del botón */
+  display: block;
+  margin-bottom: 10px;
 }
 
 .imageButton:hover {
