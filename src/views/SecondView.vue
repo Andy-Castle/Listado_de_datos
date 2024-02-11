@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import ButtonRoot from '@/components/ButtonRoot.vue'
 import ImageComponent from '@/components/ImageComponent.vue'
+// import FatherComponent from '@/components/FatherComponent.vue'
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import ImageComponent from '@/components/ImageComponent.vue'
       <ButtonRoot />
       <ImageComponent />
     </div>
+    <!-- <FatherComponent /> -->
   </div>
 </template>
 

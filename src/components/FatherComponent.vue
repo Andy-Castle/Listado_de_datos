@@ -1,7 +1,12 @@
-<script setup lang="ts"></script>
-
 <template>
-  <div></div>
+  <div>
+    <ChildComponent :menuItems="menuItems" />
+  </div>
 </template>
 
-<style scoped></style>
+<script setup lang="ts">
+import ChildComponent from '@/components/ChildComponent.vue'
+import MenuData from '@/data/MenuData'
+
+const menuItems = MenuData
+</script>
