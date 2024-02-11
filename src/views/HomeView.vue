@@ -27,6 +27,6 @@ main {
 
 h1,
 h3 {
-  margin-bottom: 10px; /* Pequeña separación entre h1 y h3 */
+  margin-bottom: 10px;
 }
 </style>

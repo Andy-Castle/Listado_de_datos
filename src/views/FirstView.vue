@@ -12,7 +12,6 @@ import ImageComponent from '@/components/ImageComponent.vue'
       <ImageComponent />
     </div>
   </div>
-  <!-- <FatherComponent /> -->
 </template>
 
 <style scoped>

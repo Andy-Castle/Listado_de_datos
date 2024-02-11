@@ -11,7 +11,6 @@ import ImageComponent from '@/components/ImageComponent.vue'
       <ButtonRoot />
       <ImageComponent />
     </div>
-    <!-- <FatherComponent /> -->
   </div>
 </template>
 
