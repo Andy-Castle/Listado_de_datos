@@ -9,14 +9,13 @@ const props = defineProps<{
 
 <template>
   <div>
-    <RouterLink
-      v-for="(item, index) in menuItems"
-      :key="item.id"
-      :to="item.path"
-      :class="{ 'no-ver': index % 2 !== 0 }"
-    >
-      {{ item.title }}
-    </RouterLink>
+    <ul>
+      <li v-for="(item, index) in menuItems" :key="item.id">
+        <RouterLink :to="item.path" :class="{ 'no-ver': index % 2 !== 0 }">
+          {{ item.title }}
+        </RouterLink>
+      </li>
+    </ul>
   </div>
 </template>
 
