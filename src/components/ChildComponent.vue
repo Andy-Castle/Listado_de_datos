@@ -11,7 +11,7 @@ const props = defineProps<{
   <div>
     <ul>
       <li v-for="(item, index) in menuItems" :key="item.id">
-        <RouterLink :to="item.path" :class="{ 'no-ver': index % 2 !== 0 }">
+        <RouterLink :to="item.path" :class="{ 'no-ver': index % 2 === 0 }">
           {{ item.title }}
         </RouterLink>
       </li>
