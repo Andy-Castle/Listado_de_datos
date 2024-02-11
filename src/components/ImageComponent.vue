@@ -1,25 +1,33 @@
-<template>
-  <div>
-    <button class="imageButton" @click="toggleImage">
-      {{ mostrarImagen ? 'Ocultar Imagen' : 'Mostrar Imagen' }}
-    </button>
-    <img v-if="mostrarImagen" src="/src/assets/images/Evan_You.jpg" alt="Evan You" />
-  </div>
-</template>
-
 <script setup lang="ts">
 import { ref } from 'vue'
-
 const mostrarImagen = ref(false)
-
 const toggleImage = () => {
   mostrarImagen.value = !mostrarImagen.value
 }
 </script>
 
+<template>
+  <div class="space">
+    <div>
+      <button class="imageButton" @click="toggleImage">
+        {{ mostrarImagen ? 'Ocultar Imagen' : 'Mostrar Imagen' }}
+      </button>
+      <img v-if="mostrarImagen" src="/src/assets/images/Evan_You.jpg" alt="Evan You" />
+    </div>
+  </div>
+</template>
+
 <style scoped>
 img {
-  width: 400px;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 10rem;
+  flex-direction: column;
+}
+
+.space {
+  width: 200px;
 }
 
 .imageButton {
@@ -29,6 +37,8 @@ img {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  display: block; /* Añade esto para que el botón ocupe todo el ancho */
+  margin-bottom: 10px; /* Espacio debajo del botón */
 }
 
 .imageButton:hover {

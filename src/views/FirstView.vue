@@ -11,8 +11,8 @@ import ImageComponent from '@/components/ImageComponent.vue'
       <ButtonRoot />
       <ImageComponent />
     </div>
-    <!-- <FatherComponent /> -->
   </div>
+  <!-- <FatherComponent /> -->
 </template>
 
 <style scoped>
@@ -30,7 +30,12 @@ h1 {
 .buttons {
   margin-top: 20px;
   display: flex;
+  flex-direction: column;
   gap: 10px;
   justify-content: center;
+}
+
+.buttons {
+  margin-left: 4.5rem;
 }
 </style>

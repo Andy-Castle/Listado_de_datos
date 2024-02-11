@@ -22,6 +22,7 @@ const GoToRoot = () => {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  margin: auto 15px;
 }
 
 .miBoton:hover {
