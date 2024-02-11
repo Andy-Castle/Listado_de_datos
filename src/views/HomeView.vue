@@ -10,4 +10,8 @@ import FatherComponent from '@/components/FatherComponent.vue'
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  margin: 20px auto;
+}
+</style>

@@ -10,14 +10,16 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <HelloWorld msg="Andy Isaac Castillo Córdova" />
 
-      <!-- <nav>
-        <RouterLink to="First">FirstView</RouterLink>
-        <RouterLink to="Second">SecondView</RouterLink>
-        <RouterLink to="Third">ThirdView</RouterLink>
-        <RouterLink to="Fourth">FourthView</RouterLink>
-        <RouterLink to="Fifth">FifthView</RouterLink>
-        <RouterLink to="Sixth">SixthView</RouterLink>
-      </nav> -->
+      <div class="nav">
+        <nav>
+          <RouterLink to="First">FirstView</RouterLink>
+          <RouterLink to="Second">SecondView</RouterLink>
+          <RouterLink to="Third">ThirdView</RouterLink>
+          <RouterLink to="Fourth">FourthView</RouterLink>
+          <RouterLink to="Fifth">FifthView</RouterLink>
+          <RouterLink to="Sixth">SixthView</RouterLink>
+        </nav>
+      </div>
     </div>
   </header>
   <RouterView />
